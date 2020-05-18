@@ -1,6 +1,11 @@
 
 
-A simple react app shows fetch data in card list and search box.
+A simple react app features:
+
+* Card List
+* Search box
+* Fetch data from URL
+
 
 ## Live demo:
 
