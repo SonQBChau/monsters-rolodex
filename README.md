@@ -9,7 +9,7 @@ A simple react app features:
 
 ## Live demo:
 
-<a href="https://sonqbchau.github.io/monsters-rolodex/" target="_blank">https://sonqbchau.github.io/monsters-rolodex/</a>
+https://sonqbchau.github.io/monsters-rolodex/
 
 
 <img src="https://github.com/SonQBChau/monsters-rolodex/blob/master/ss.png" width="688" height="1008">
