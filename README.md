@@ -7,4 +7,4 @@ A simple react app shows fetch data in card list and search box.
 https://sonqbchau.github.io/monsters-rolodex/
 
 
-<img src="https://github.com/SonQBChau/monsters-rolodex/blob/master/ss.png" width="1376" height="2016">
+<img src="https://github.com/SonQBChau/monsters-rolodex/blob/master/ss.png" width="688" height="1008">
