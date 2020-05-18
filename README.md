@@ -4,7 +4,7 @@ A simple react app features:
 
 * Card List
 * Search box
-* Fetch data from URL
+* Fetch data from API
 
 
 ## Live demo:
