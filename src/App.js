@@ -14,9 +14,15 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch("https://jsonplaceholder.typicode.com/users")
+    //use a CORS proxy to get around “No Access-Control-Allow-Origin header” problems
+    const proxyurl = "https://cors-anywhere.herokuapp.com/";
+    const url = "https://jsonplaceholder.typicode.com/users";
+    fetch(proxyurl + url)
       .then((response) => response.json())
-      .then((users) => this.setState({ monsters: users }));
+      .then((users) => this.setState({ monsters: users }))
+      .catch(() =>
+        console.log("Can’t access " + url + " response. Blocked by browser?")
+      );
   }
 
   handleChange = (e) => {
